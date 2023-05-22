@@ -1,0 +1,572 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/UnevenTerrain.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/trees/protos/Cypress.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/rocks/protos/Rock10cm.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/rocks/protos/Rock17cm.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/trees/protos/Sassafras.proto"
+
+WorldInfo {
+  info [
+    "Pioneer 3DX robot (Adept Mobile Robots)"
+    "This two-wheel two-motor, differential wheel robot is equipped with a Microsoft kinect"
+    "It is programmed to perform a simple obstacle avoidance behavior based on sensed values situated on a medium-height line of the kinect display"
+  ]
+  title "Pioneer 3DX equipped with a Microsoft kinect"
+}
+Viewpoint {
+  fieldOfView 0.660595
+  orientation -0.1261305810591654 -0.6654098155060748 0.73574510120683 5.778905819347122
+  position -36.43038219871105 4.213208494122888 17.512113674048184
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+UnevenTerrain {
+}
+Solid {
+  translation 4 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation 2.92 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation 1.87 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation 5.09 -4.56 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 9.38 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(13)"
+}
+Solid {
+  translation 11.34 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(15)"
+}
+Solid {
+  translation 12.37 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(29)"
+}
+Solid {
+  translation 13.4 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(30)"
+}
+Solid {
+  translation 14.47 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(31)"
+}
+Solid {
+  translation 15.52 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(32)"
+}
+Solid {
+  translation 16.59 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(33)"
+}
+Solid {
+  translation 17.66 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(34)"
+}
+Solid {
+  translation 10.31 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(14)"
+}
+Solid {
+  translation 6.14 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(10)"
+}
+Solid {
+  translation 7.23 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(11)"
+}
+Solid {
+  translation 8.27 -4.55 4
+  rotation 0 1 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0
+          diffuseColor 0.180392 0.203922 0.211765
+        }
+        texture ImageTexture {
+          url [
+            "../images/DSC09894.JPG"
+          ]
+        }
+      }
+      geometry Box {
+        size 1 2 0.05
+      }
+    }
+  ]
+  name "solid(12)"
+}
+Sassafras {
+  translation 0 5.68 3.38
+}
+Sassafras {
+  translation 4.93 4.72 3.38
+  name "sassafras tree(1)"
+}
+Sassafras {
+  translation 10 6.24 3.38
+  name "sassafras tree(2)"
+}
+Rock17cm {
+  translation 0.43 -5.72 2.56
+}
+Rock17cm {
+  translation 10.11 -4.78 3.23
+  name "rock 17 cm(2)"
+}
+Rock17cm {
+  translation 5.5 -4.36 3.05
+  name "rock 17 cm(1)"
+}
+Rock17cm {
+  translation 5.5 -0.42 3.37
+  name "rock 17 cm(3)"
+}
+Cypress {
+  translation 7 -0.11 -0.5
+}
+Cypress {
+  translation 7 -5.96 -0.5
+  name "cypress tree(3)"
+}
+Cypress {
+  translation 7 -2.62 -0.5
+  name "cypress tree(2)"
+}
+Cypress {
+  translation 2.4 -2.83 -0.92
+  rotation 1 0 0 4.692820414042842e-06
+  name "cypress tree(7)"
+}
+Cypress {
+  translation 12.91 -2.21 -0.5
+  name "cypress tree(8)"
+}
+Cypress {
+  translation 10 3.31 3.56
+  name "cypress tree(4)"
+}
+Cypress {
+  translation 13.41 3.8 2.84
+  name "cypress tree(5)"
+}
+Cypress {
+  translation 3 0 -1.1
+  name "cypress tree(6)"
+}
+Cypress {
+  translation 10 -1.35 -0.5
+  name "cypress tree(1)"
+}
+Cypress {
+  translation 13.27 0 -0.5
+  name "cypress tree(9)"
+}
+Cypress {
+  translation 17.41 0 -0.5
+  name "cypress tree(10)"
+}
+Oak {
+  translation 12 0 -1
+}
+Oak {
+  translation 8 0 -1
+  name "oak tree(1)"
+}
+Oak {
+  translation 8 -5 -1
+  name "oak tree(5)"
+}
+Oak {
+  translation 5 0 -1
+  name "oak tree(2)"
+}
+Oak {
+  translation 5 -2.33 -1
+  name "oak tree(8)"
+}
+Oak {
+  translation 3.87 -2.4 -1
+  name "oak tree(10)"
+}
+Oak {
+  translation 9.36 -2.4 -1
+  name "oak tree(11)"
+}
+Oak {
+  translation 15.26 -2.4 -1
+  name "oak tree(12)"
+}
+Oak {
+  translation 5 -5 -1
+  name "oak tree(6)"
+}
+Oak {
+  translation 1 0 -1
+  name "oak tree(3)"
+}
+Oak {
+  translation 1 -5 -1
+  name "oak tree(7)"
+}
+Solid {
+  name "solid(1)"
+}
+DEF matrice Robot {
+  translation -5.765348269872065 -1.4195779262855024 7.8419389724731445
+  rotation -1.3328358155928694e-07 -1.040631035013951e-05 0.9999999999458454 0.04166660431534165
+  children [
+    RangeFinder {
+      rotation 0 1 0 1.5707996938995747
+      fieldOfView 2
+      width 640
+      height 480
+      maxRange 8
+    }
+    Camera {
+      translation 0 -0.2 0
+      name "camera_r"
+      fieldOfView 2
+      width 640
+      height 480
+    }
+    Camera {
+      rotation 0 1 0 1.5707996938995747
+      name "camera_l"
+      fieldOfView 2
+      width 640
+      height 480
+      far 8
+    }
+    Solid {
+      rotation 0 1 0 1.5708
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.180392 0.203922 0.211765
+            }
+          }
+          geometry Cone {
+            bottomRadius 0.05
+            height 0.1
+          }
+        }
+      ]
+    }
+  ]
+  controller "<extern>"
+  supervisor TRUE
+}
+Rock10cm {
+  translation 7.75 0.61 3.6
+}
+Rock10cm {
+  translation 12.42 -1.47 3.5
+  name "rock 10 cm(1)"
+}
+Rock10cm {
+  translation 2.84536 -2.41464 3.11578
+  rotation 0.3005501474473838 -0.12449106107427137 -0.9456064639066072 0.825724
+  name "rock 10 cm(2)"
+}
