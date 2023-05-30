@@ -12,7 +12,7 @@ from scipy.spatial.transform import Rotation as R
 from tf import TransformBroadcaster
 
 
-xd = 2.0
+xd = 3.0
 yd = -4.6
 zd = 5.16
 vxd = 0.0
@@ -180,6 +180,7 @@ def move_velocity(supervisor, rotation):
     velocity_angular_world = Rotational_matrix@velocity_angular
 
     velocity = [velocity_linear_world[0], velocity_linear_world[1], velocity_linear_world[2], velocity_angular_world[0], velocity_angular_world[1], velocity_angular_world[2]]
+    #velocity = [velocity_linear[0], velocity_linear[1], velocity_linear[2], velocity_angular[0], velocity_angular[1], velocity_angular[2]]
 
     supervisor.setVelocity(velocity)
     return None
@@ -265,8 +266,8 @@ def main(robot, image_pu_rgb, image_pu_d, odometry_pu):
         angles = [r_axis_normalized[0], r_axis_normalized[1], r_axis_normalized[2], r_axis_angle] 
 
         # Set Displacement and rotation
-        # set_robot(translation_field, rotation_field, displacement, angles)
-        move_velocity(supervisor_node, rotation_field)
+        set_robot(translation_field, rotation_field, displacement, angles)
+        #move_velocity(supervisor_node, rotation_field)
         
 
         # Get Odometry
